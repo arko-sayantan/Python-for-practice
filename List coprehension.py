@@ -17,6 +17,9 @@ mylis2 = [x**2 for x in mylis if x%2 == 0] # It prints square of odd position of
 print(f'The square of the element in mylis: {mylis}')
 print(f'The square of odd element in mylist :{mylis2}')
 
+lis = [x*y for x in [2,4,6] for y in [1,10,100]]  # Example of nested loop.
+print(lis)    
+
 celsius = [10,20,40,30,40,50,99]
 fahrenteit = [((9/5)*temp+32) for temp in celsius] # (9/5)*temp+32) --> main operation
 print(f'Fahrenteit : {fahrenteit}')
