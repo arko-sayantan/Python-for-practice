@@ -1,11 +1,4 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Jan 11 14:42:33 2021
-
-@author: ASUS
-"""
-
-## Herewe discuss list comprehension.
+## Here we discuss list comprehension.
 
 mylist = [1,2,3,4,5,6,7,8]
 
