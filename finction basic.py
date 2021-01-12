@@ -36,7 +36,7 @@ def employee_check(work_hours):
             name = i
     else:
         pass
-    
+    print(name,hours_max)
     return (name,hours_max)
 
 employee_check(work_hours)
