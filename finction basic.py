@@ -22,3 +22,21 @@ def even_check_list(lis):
 
 zz = even_check_list([1,2,4,5,7])
 print(f'\n{zz}')
+
+work_hours = [('arko',1000),('soumili',400),('sayantan',100)]
+
+def employee_check(work_hours):
+    # Search which employee work more hr.
+    hours_max = 0
+    name = ''
+    
+    for i,hour in work_hours:
+        if hour > hours_max:
+            hours_max = hour
+            name = i
+    else:
+        pass
+    
+    return (name,hours_max)
+
+employee_check(work_hours)
