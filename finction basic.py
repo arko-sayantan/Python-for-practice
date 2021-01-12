@@ -40,3 +40,12 @@ def employee_check(work_hours):
     return (name,hours_max)
 
 employee_check(work_hours)
+
+
+name1,hours2 = employee_check(work_hours)
+print(name1)
+print(hours2)
+
+
+
+
